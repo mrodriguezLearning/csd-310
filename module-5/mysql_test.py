@@ -16,6 +16,7 @@ config = {
     "database": secrets["DATABASE"],
     "raise_on_warnings": True #not in .env file
 }
+"""MySQL: mysql_test.py. Connection test code"""
 try:
     """ try/catch block for handling potential MySQL database errors """ 
  
